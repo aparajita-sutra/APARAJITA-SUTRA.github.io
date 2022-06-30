@@ -1,0 +1,131 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: white;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  padding-top: 30px;
+  color: forestgreen;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.center {
+  display: block;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h4 {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 2px #e85486;
+  background-color: #e85486;
+  padding: 40px;
+}
+
+h3 {
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h2 {
+  padding-top: 100px;
+  color: forestgreen;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+p{
+  text-align: center;
+  padding-top: 20px;
+  color: forestgreen;
+}
+
+table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th, td {
+ padding-top: 10px; 
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+th {
+  color: #b93c66;
+}
+
+.middle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.genFact {
+  background: #e85486;
+  border-radius: 10px;
+  border-style: none;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+  line-height: 1.2em;
+  color: black;
+}
+
+#myButton {
+  background: forestgreen;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+#fact {
+  color: #1b641b;
+}
+
+#one {
+ text-align: center;
+  margin: auto;
+  width: 500px;
+  border: 2px #e85486;
+  background-color: #e85486; 
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  text-align: right;
+}
+li {
+  display: inline;
+  border-style: solid;
+  border-color: #87d765;
+  background-color: #87d765;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  padding: 2em;
+}
+li a:hover {
+  background-color: #46a456;
